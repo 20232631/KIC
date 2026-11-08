@@ -1,0 +1,16 @@
+{
+  "ticker": "META",
+  "cik": "1326801",
+  "company": "Meta Platforms, Inc.",
+  "proxies": [
+    {
+      "form": "DEF 14A",
+      "filingDate": "2026-04-16",
+      "accessionNumber": "0001628280-26-025532",
+      "primaryDocument": "meta-20260416.htm",
+      "role": "latest",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+      "saved_to": "data/raw/meta/2026-04-16.htm"
+    }
+  ]
+}
