@@ -1,0 +1,379 @@
+{
+  "ticker": "META",
+  "as_of": "2026-04-16",
+  "model": "gpt-4o",
+  "usage": {
+    "input": 47754,
+    "output": 1998
+  },
+  "results": [
+    {
+      "claim_id": "P03-C02",
+      "proposal": 3,
+      "proposal_topic": "Report on AI Data Usage Oversight",
+      "speaker": "company",
+      "proponent": "National Legal and Policy Center",
+      "quote": "Our Privacy Policy, Privacy Center, and other disclosures explain how we use information for AI training.",
+      "claim_ko": "우리의 개인정보 보호 정책, 개인정보 보호 센터 및 기타 공개 자료는 AI 훈련을 위한 정보 사용 방법을 설명한다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "privacy_ai_data",
+      "time_ref": "",
+      "page_no": 69,
+      "quote_found": true,
+      "in_board_summary": true,
+      "merged_ids": [],
+      "pages_all": [
+        69
+      ],
+      "esg_pillar": "S",
+      "sasb_issue": "Data Privacy & Data Security",
+      "materiality": "high",
+      "proponent_stance": "anti_esg",
+      "flag": "",
+      "priority_score": 5,
+      "priority": "1순위",
+      "priority_reason": "중대성 high(+3) / 회사 핵심 주장★(+2)",
+      "verdict": "확인됨",
+      "evidence_quote": "[proxy p.69] d information from Meta’s products and services. In our Privacy Policy and Privacy Center, we explain how we use information to develop and improve AI at Meta. In particular, our Privacy Center describes what generative AI is, explains where we get information used to train our models and how model training works, and details our approach to building AI, including the options that people have for managing settings on our products. For example, publicly shared posts from Instagram and Facebook and content from chats with our AIs—including photos and text—are part of the data used to train our A",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+      "source_date": "2026-04-16",
+      "explanation_ko": "프록시 문서 69페이지에 따르면, Meta의 개인정보 보호 정책과 개인정보 보호 센터는 AI 개발 및 개선을 위해 정보를 사용하는 방법을 설명하고 있으며, 생성 AI, 모델 훈련에 사용되는 데이터 출처, 사용자 설정 관리 옵션에 대한 세부 정보를 포함하고 있다.",
+      "check_notes": "",
+      "steps": 1,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "search_proxy",
+          "args": {
+            "query": "Privacy Policy, Privacy Center, AI training"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.69] d information from Meta’s products and services. In our Privacy Policy and Privacy Center, we explain how we use information to develop and improve AI at Meta. In particular, our Privacy Center describes what generative AI is, explains where we get information used to train our models and how model training works, and details our approach to building AI, including the options that people have for managing settings on our products. For example, publicly shared posts from Instagram and Facebook and content from chats with our AIs—including photos and text—are part of the data used to train our A\", \"[proxy p.85] ivacy responsibilities across our products. Our Product Risk & Compliance organization, which consists of both technical and non-technical teams, is focused on guiding the company on privacy strategies. And our Privacy and Data Policy team leads our engagement in the global public discussion around privacy, including new regulatory frameworks, and ensures that feedback from governments and experts around the world is considered in our product design and data use practices. With our entire company acting as the first line of defense, following the guidance of our compliance experts, we have a m\", \"[proxy p.37] e concerning independence, and has discussed with EY its independence. Based on the review and discussions described above, the audit & privacy committee recommended to the board of directors that the audited financial statements be included in the Annual Report for filing with the SEC. THE AUDIT & PRIVACY COMMITTEE Nancy Killefer (Chair) Hock E. Tan Tracey T. Travis\"]}"
+        }
+      ]
+    },
+    {
+      "claim_id": "P03-C04",
+      "proposal": 3,
+      "proposal_topic": "Report on AI Data Usage Oversight",
+      "speaker": "company",
+      "proponent": "National Legal and Policy Center",
+      "quote": "Our board of directors, primarily through our audit & privacy committee, oversees our AI data practices.",
+      "claim_ko": "우리 이사회는 주로 감사 및 개인정보 보호 위원회를 통해 AI 데이터 관행을 감독한다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "voting_governance",
+      "time_ref": "",
+      "page_no": 69,
+      "quote_found": true,
+      "in_board_summary": true,
+      "merged_ids": [],
+      "pages_all": [
+        69
+      ],
+      "esg_pillar": "G",
+      "sasb_issue": "(지배구조 공통 이슈)",
+      "materiality": "medium",
+      "proponent_stance": "anti_esg",
+      "flag": "",
+      "priority_score": 4,
+      "priority": "2순위",
+      "priority_reason": "중대성 medium(+2) / 회사 핵심 주장★(+2)",
+      "verdict": "확인 불가",
+      "evidence_quote": "",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+      "source_date": "2026-04-16",
+      "explanation_ko": "제안서의 자체 진술 외에 이사회가 주로 감사 및 개인정보 보호 위원회를 통해 AI 데이터 관행을 감독한다는 독립적인 증거를 찾을 수 없었다.",
+      "check_notes": "검사기가 1번 돌려보낸 뒤 재제출",
+      "steps": 2,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "search_proxy",
+          "args": {
+            "query": "audit & privacy committee oversees AI data practices"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.37] ting practices, system of internal controls, audit processes and financial reporting processes. The audit & privacy committee is responsible for appointing and retaining our independent auditor and pre-approving the audit and non-audit services to be provided by the independent auditor. The audit & privacy committee's function is more fully described in its charter. Our management is responsible for preparing our financial statements and ensuring they are complete and accurate and prepared in accordance with U.S. generally accepted accounting principles (GAAP). Our independent auditor, Ernst &\", \"[proxy p.69] AI governance. Our board of directors, primarily through our audit & privacy committee, oversees our AI data practices. Our board’s audit & privacy committee has responsibility for overseeing our comprehensive privacy program and product compliance, including in regard to the development of AI. The committee regularly meets with management on our AI initiatives, including regarding the use of data and responsible use. Additionally, our risk & strategy committee is tasked with oversight for strategic risks and opportunities regarding our products and business operations. Chairs of the committee\", \"[proxy p.28] licable laws and regulations, including the European Digital Markets Act and other privacy and data use laws •Overseeing our comprehensive privacy program adopted in compliance with our FTC consent order •Overseeing the selection and performance of employees to coordinate and be responsible for our privacy program •Overseeing the selection of an independent, third-party assessor to review our privacy practices, and reviewing assessor's biennial assessments of our privacy program Independence and Other Qualifications •Each committee member satisfies the independence standards for audit committe\"]}"
+        },
+        {
+          "step": 3,
+          "tool": "search_proxy",
+          "args": {
+            "query": "board committees AI data practices oversight"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.26] ew committee structure by establishing a new audit & privacy committee and a risk & strategy committee, and accordingly disbanding the audit & risk oversight committee and privacy & product compliance committee, in each case effective as of June 2025. As such, the current standing committees of the board are our audit & privacy committee, compensation, nominating & governance committee, and risk & strategy committee, each of which has the composition and responsibilities described below. Our board has adopted a written charter for each of these standing committees, which are available at inves\", \"[proxy p.69]  our AI data practices. Our board’s audit & privacy committee has responsibility for overseeing our comprehensive privacy program and product compliance, including in regard to the development of AI. The committee regularly meets with management on our AI initiatives, including regarding the use of data and responsible use. Additionally, our risk & strategy committee is tasked with oversight for strategic risks and opportunities regarding our products and business operations. Chairs of the committees provide regular reports and discuss their committee topics with our full board of directors. G\", \"[proxy p.30] •Selection of independent, third-party assessor to review our privacy practices, oversight of the biennial assessments, and regular engagement with the assessor •Policies and procedures for assessing and managing risk •Director elections and corporate governance practices •Compensation policies and practices, including compensation philosophy, objectives, and design •Succession planning for our board of directors, including sole responsibility for appointments to and removals from the audit & privacy committee •Succession planning for certain key executives other than the CEO SENIOR MANAGEMENT\"]}"
+        }
+      ]
+    },
+    {
+      "claim_id": "P03-S04",
+      "proposal": 3,
+      "proposal_topic": "Report on AI Data Usage Oversight",
+      "speaker": "shareholder",
+      "proponent": "National Legal and Policy Center",
+      "quote": "Meta's updated privacy policy now allows the Company to use a wide range of personal data for developing and improving its AI technologies, after being paused for roughly a year",
+      "claim_ko": "메타의 갱신된 개인정보 보호 정책은 약 1년 간 중단된 후 회사가 AI 기술 개발 및 개선을 위해 광범위한 개인 데이터를 사용할 수 있도록 허용한다",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "privacy_ai_data",
+      "time_ref": "",
+      "page_no": 68,
+      "quote_found": true,
+      "in_board_summary": false,
+      "merged_ids": [],
+      "pages_all": [
+        68
+      ],
+      "esg_pillar": "S",
+      "sasb_issue": "Data Privacy & Data Security",
+      "materiality": "high",
+      "proponent_stance": "anti_esg",
+      "flag": "",
+      "priority_score": 3,
+      "priority": "2순위",
+      "priority_reason": "중대성 high(+3)",
+      "verdict": "확인 불가",
+      "evidence_quote": "",
+      "source_url": "",
+      "source_date": "",
+      "explanation_ko": "제공된 자료에서는 메타의 개인정보 보호 정책이 AI 기술 개발을 위해 개인 데이터를 사용하는 것을 약 1년간 중단했다가 다시 허용했다는 구체적인 정보를 찾을 수 없습니다.",
+      "check_notes": "",
+      "steps": 5,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "search_proxy",
+          "args": {
+            "query": "privacy policy AI data usage"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.69] n, so a combination of sources are used for training, including information that is publicly available, licensed data, and information from Meta’s products and services. In our Privacy Policy and Privacy Center, we explain how we use information to develop and improve AI at Meta. In particular, our Privacy Center describes what generative AI is, explains where we get information used to train our models and how model training works, and details our approach to building AI, including the options that people have for managing settings on our products. For example, publicly shared posts from Inst\", \"[proxy p.68] /policy/advocacy-research/tech-at-ftc/2024/01/ai-companies-uphold-your-privacy-confidentiality-commitments 28 https://www.cnbc.com/2024/01/05/microsoft-openai-sued-over-copyright-infringement-by-authors.html 29 https://www.pewresearch.org/short-reads/2023/10/18/key-findings-about-americans-and-data-privacy/\", \"[proxy p.85] n guiding the company on privacy strategies. And our Privacy and Data Policy team leads our engagement in the global public discussion around privacy, including new regulatory frameworks, and ensures that feedback from governments and experts around the world is considered in our product design and data use practices. With our entire company acting as the first line of defense, following the guidance of our compliance experts, we have a mature privacy program that helps enable oversight and accountability at scale. We maintain an internal risk review process as a central part of developing new\"]}"
+        },
+        {
+          "step": 2,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+            "query": "privacy policy AI data usage"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"y to effectively audit Meta's financial statements. Shareholder Proposals: 3. A shareholder proposal regarding report on AI data usage oversight (page 67) AGAINST | •We have robust risk review and privacy practices that address how we use information for AI models and features. •Our Privacy Policy, Privacy Center, and other disclosures explain how we use information for AI training. •We collaborate extensively with internal and external stakeholders on our AI data practices to help address key issues around the use of data in our models. •Our board of directors, primarily through our audit & p\", \"n guiding the company on privacy strategies. And our Privacy and Data Policy team leads our engagement in the global public discussion around privacy, including new regulatory frameworks, and ensures that feedback from governments and experts around the world is considered in our product design and data use practices. With our entire company acting as the first line of defense, following the guidance of our compliance experts, we have a mature privacy program that helps enable oversight and accountability at scale. We maintain an internal risk review process as a central part of developing new\"]}"
+        },
+        {
+          "step": 3,
+          "tool": "edgar_search",
+          "args": {
+            "form": "10-K",
+            "date_from": "2025-01-01",
+            "date_to": "2026-04-15",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"10-K\", \"filingDate\": \"2026-01-29\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\"}, {\"form\": \"10-K\", \"filingDate\": \"2025-01-30\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm\"}]"
+        },
+        {
+          "step": 4,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+            "query": "privacy policy AI data usage"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\", \"source_date\": \"2026-01-29\", \"results\": [\" to WhatsApp's terms of service and privacy policy and its sharing of certain data with other Meta products and services, including a lawsuit currently pending before the Supreme Court of India and an order by the Competition Commission of India, which we are appealing. If we are unable to transfer data between and among countries and regions in which we operate, or if we are restricted from sharing data among our products and services, it could affect our ability to provide our services, the manner in which we provide our services or our ability to target ads, which could adversely affect our\", \", pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. X 97.1 | | Compensation Recoupment Policy. 10-K | | 001-35551 | | 97.1 | | February 2, 2024 101.INS | | Inline XBRL Instance Document (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document). | | | | | | | | | | X 101.SCH | | Inline XBRL Taxonomy Extension Schema Document. | | | | | | | | | | X 101.CAL | | Inline XBRL Taxonomy Extension Calculation Linkbase Document. | | | | | | | | | | X 101.DEF | | Inline XB\"]}"
+        },
+        {
+          "step": 5,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "query": "privacy policy AI data usage"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm\", \"source_date\": \"2025-01-30\", \"results\": [\" to WhatsApp's terms of service and privacy policy and its sharing of certain data with other Meta products and services, including a lawsuit currently pending before the Supreme Court of India and an order by the Competition Commission of India, which we are appealing. If we are unable to transfer data between and among countries and regions in which we operate, or if we are restricted from sharing data among our products and services, it could affect our ability to provide our services, the manner in which we provide our services or our ability to target ads, which could adversely affect our\", \", pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002. X 97.1 | | Compensation Recoupment Policy. 10-K | | 001-35551 | | 97.1 | | February 2, 2024 101.INS | | Inline XBRL Instance Document (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document). | | | | | | | | | | X 101.SCH | | Inline XBRL Taxonomy Extension Schema Document. | | | | | | | | | | X 101.CAL | | Inline XBRL Taxonomy Extension Calculation Linkbase Document. | | | | | | | | | | X 101.DEF | | Inline XB\"]}"
+        }
+      ]
+    },
+    {
+      "claim_id": "P03-S05",
+      "proposal": 3,
+      "proposal_topic": "Report on AI Data Usage Oversight",
+      "speaker": "shareholder",
+      "proponent": "National Legal and Policy Center",
+      "quote": "Meta was subject to a record €1.2 billion ($1.3 billion) fine for breaching the European Union's General Data Protection Regulation",
+      "claim_ko": "메타는 유럽연합의 일반 데이터 보호 규정을 위반하여 기록적인 12억 유로(13억 달러)의 벌금을 부과받았다",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "privacy_ai_data",
+      "time_ref": "",
+      "page_no": 68,
+      "quote_found": true,
+      "in_board_summary": false,
+      "merged_ids": [],
+      "pages_all": [
+        68
+      ],
+      "esg_pillar": "S",
+      "sasb_issue": "Data Privacy & Data Security",
+      "materiality": "high",
+      "proponent_stance": "anti_esg",
+      "flag": "",
+      "priority_score": 3,
+      "priority": "2순위",
+      "priority_reason": "중대성 high(+3)",
+      "verdict": "확인됨",
+      "evidence_quote": "May 12, 2023, the IDPC issued a Final Decision concluding that Meta Platforms Ireland's reliance on Standard Contractual Clauses in respect of certain transfers of European Economic Area (EEA) Facebook user data was not in compliance with the GDPR. The IDPC issued an administrative fine of EUR €1.2 billion as well as corrective orders, which is described further in \"Legal Proceedings\" contained in Part I, Item 3 of this Annual Report on Form 10-K.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "source_date": "2026-01-29",
+      "explanation_ko": "2023년 5월 12일, IDPC는 메타 플랫폼 아일랜드가 GDPR을 준수하지 않았다고 결론짓고 12억 유로의 벌금을 부과했습니다. 이는 2026년 10-K 보고서에 명시되어 있습니다.",
+      "check_notes": "",
+      "steps": 5,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "edgar_search",
+          "args": {
+            "form": "10-K",
+            "date_from": "2025-01-01",
+            "date_to": "2026-04-16",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"10-K\", \"filingDate\": \"2026-01-29\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\"}, {\"form\": \"10-K\", \"filingDate\": \"2025-01-30\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm\"}]"
+        },
+        {
+          "step": 1,
+          "tool": "edgar_search",
+          "args": {
+            "form": "8-K",
+            "date_from": "2025-01-01",
+            "date_to": "2026-04-16",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"8-K\", \"filingDate\": \"2026-04-14\", \"items\": \"5.02\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025108/meta-20260408.htm\"}, {\"form\": \"8-K\", \"filingDate\": \"2026-01-28\", \"items\": \"2.02,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-20260128.htm\"}, {\"form\": \"8-K\", \"filingDate\": \"2026-01-16\", \"items\": \"5.02\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026002429/meta-20260112.htm\"}, {\"form\": \"8-K\", \"filingDate\": \"2025-12-19\", \"items\": \"5.02\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828025058337/meta-20251219.htm\"}, {\"form\": \"8-K\", \"filingDate\": \"2025-12-12\", \"items\": \"8.01,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828025056768/meta-20251205.htm\"}, {\"form\": \"8-K\", \"filingDate\": \"2025-11-03\", \"items\": \"8.01,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000119312525262593/d75422d8k.htm\"}, {\"form\": \"8-K\", \"filingDate\": \"2025-10-29\", \"items\": \"2.02,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-20251029.htm\"}, {\"form\": \"8-K\", \"filingDate\": \"2025-07-30\", \"items\": \"2.02,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-20250730.htm\"}, {\"form\": \"8-K\", \"filingDate\": \"2025-05-30\", \"items\": \"5.07,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm\"}, {\"form\": \"8-K\", \"filingDate\": \"2025-04-30\", \"items\": \"2.02,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-20250430.htm\"}]"
+        },
+        {
+          "step": 2,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+            "query": "fine for breaching the European Union's General Data Protection Regulation"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\", \"source_date\": \"2026-01-29\", \"results\": [\"tion Commission (IDPC), our lead European Union privacy regulator under the General Data Protection Regulation (GDPR), of certain other personal data breaches and privacy issues, issue similar notifications to European regulators under other laws (such as UK GDPR and Member State implementations of the ePrivacy Directive), and are subject to inquiries and investigations by the IDPC and other European regulators regarding various aspects of our regulatory compliance. For example, the IDPC is continuing to assess the compliance of our \\\"subscription for no ads\\\" consent model with requirements und\", \"nder the European General Data Protection Regulation (GDPR), and may implement additional changes in the future. The GDPR also requires submission of personal data breach notifications to our lead European Union privacy regulator, the IDPC, and includes significant penalties for non-compliance with the notification obligation as well as other requirements of the regulation. The interpretation of the GDPR is still evolving, including through decisions of the CJEU, and draft decisions in investigations by the IDPC are subject to review by other European privacy regulators as part of the GDPR's c\"]}"
+        },
+        {
+          "step": 3,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+            "query": "€1.2 billion fine"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\", \"source_date\": \"2026-01-29\", \"results\": [\"May 12, 2023, the IDPC issued a Final Decision concluding that Meta Platforms Ireland's reliance on Standard Contractual Clauses in respect of certain transfers of European Economic Area (EEA) Facebook user data was not in compliance with the GDPR. The IDPC issued an administrative fine of EUR €1.2 billion as well as corrective orders, which is described further in \\\"Legal Proceedings\\\" contained in Part I, Item 3 of this Annual Report on Form 10-K. The interpretation of the GDPR is still evolving, including through decisions of the Court of Justice of the European Union, and draft decisions in \", \"his Annual Report on Form 10-K. Worldwide DAP increased 7% to 3.58 billion on average during December 2025 from 3.35 billion during December 2024. 65 Table of Contents •Average Revenue Per Person (ARPP). Our Family of Apps (FoA) revenue represents the substantial majority of our total revenue. We define ARPP as our FoA revenue during a given quarter, divided by the average of the number of DAP at the beginning and end of the quarter. ARPP: | $12.33 | $11.20 | $11.89 | $12.29 | $14.25 | $12.36 | $13.65 | $14.46 | $16.56 Note: We updated our definition of ARPP beginning in the first quarter of 2\"]}"
+        },
+        {
+          "step": 4,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+            "query": "€1.2 billion ($1.3 billion) fine"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\", \"source_date\": \"2026-01-29\", \"results\": [\"May 12, 2023, the IDPC issued a Final Decision concluding that Meta Platforms Ireland's reliance on Standard Contractual Clauses in respect of certain transfers of European Economic Area (EEA) Facebook user data was not in compliance with the GDPR. The IDPC issued an administrative fine of EUR €1.2 billion as well as corrective orders, which is described further in \\\"Legal Proceedings\\\" contained in Part I, Item 3 of this Annual Report on Form 10-K. The interpretation of the GDPR is still evolving, including through decisions of the Court of Justice of the European Union, and draft decisions in \", \"his Annual Report on Form 10-K. Worldwide DAP increased 7% to 3.58 billion on average during December 2025 from 3.35 billion during December 2024. 65 Table of Contents •Average Revenue Per Person (ARPP). Our Family of Apps (FoA) revenue represents the substantial majority of our total revenue. We define ARPP as our FoA revenue during a given quarter, divided by the average of the number of DAP at the beginning and end of the quarter. ARPP: | $12.33 | $11.20 | $11.89 | $12.29 | $14.25 | $12.36 | $13.65 | $14.46 | $16.56 Note: We updated our definition of ARPP beginning in the first quarter of 2\"]}"
+        }
+      ]
+    },
+    {
+      "claim_id": "P03-C06",
+      "proposal": 3,
+      "proposal_topic": "Report on AI Data Usage Oversight",
+      "speaker": "company",
+      "proponent": "National Legal and Policy Center",
+      "quote": "Through this process, we assess how data will be used and protected as a part of new or updated products, services and practices at Meta, including for AI and generative AI.",
+      "claim_ko": "이 과정을 통해 우리는 Meta의 새로운 또는 업데이트된 제품, 서비스 및 관행의 일환으로 데이터가 어떻게 사용되고 보호될 것인지를 평가한다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "privacy_ai_data",
+      "time_ref": "",
+      "page_no": 69,
+      "quote_found": true,
+      "in_board_summary": false,
+      "merged_ids": [],
+      "pages_all": [
+        69
+      ],
+      "esg_pillar": "S",
+      "sasb_issue": "Data Privacy & Data Security",
+      "materiality": "high",
+      "proponent_stance": "anti_esg",
+      "flag": "",
+      "priority_score": 3,
+      "priority": "2순위",
+      "priority_reason": "중대성 high(+3)",
+      "verdict": "확인 불가",
+      "evidence_quote": "",
+      "source_url": "",
+      "source_date": "",
+      "explanation_ko": "제공된 자료에서는 Meta가 AI 및 생성 AI와 관련된 데이터 사용 및 보호를 평가하는 과정에 대한 구체적인 정보를 찾을 수 없었습니다. 따라서 해당 주장을 확인할 수 없습니다.",
+      "check_notes": "",
+      "steps": 5,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "search_proxy",
+          "args": {
+            "query": "data usage and protection for AI"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.69] he usage of data. Examples of these groups include the AI Alliance, an international community of researchers, developers, and organizational leaders committed to support and enhance open innovation across the AI technology landscape to accelerate progress, improve safety, security and trust in AI, and maximize benefits to people and society everywhere; the Partnership on AI, a non-profit partnership of academic, civil society, industry, and media organizations creating solutions so that AI advances positive outcomes for people and society; the Frontier Model Forum, an industry-supported nonpr\", \"[proxy p.65]  the filing, (i) certain subsidiaries or business divisions of subsidiaries of The Vanguard Group, Inc. that formerly had, or were deemed to have, beneficial ownership with The Vanguard Group, Inc., will report beneficial ownership separately, on a disaggregated basis, from The Vanguard Group, Inc. and (ii) The\", \"[proxy p.49] rsonal usage of private aircraft, see the section entitled \\\"—Compensation Discussion and Analysis—Perquisites and Other Benefits\\\" above. (5)The amounts reported include approximately $35,261, $53,406, and $47,685 in 2025, 2024, and 2023, respectively, for costs related to personal security services and $39,207, $59,383, and $53,023 in 2025, 2024, and 2023, respectively, for associated tax gross-ups for taxable personal security services; and $11,500, $11,500, and $11,250 in 2025, 2024, and 2023, respectively, in company 401(k) matching contributions. (6)The amounts reported include approximate\"]}"
+        },
+        {
+          "step": 2,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+            "query": "data usage and protection for AI"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"ism and hate in online platforms AGAINST 9. A shareholder proposal regarding report on climate change-related commitments AGAINST 10. A shareholder proposal regarding report on integrating child safety improvements into the executive compensation program AGAINST 11. A shareholder proposal regarding data protection impact assessment on generative AI chatbots | AGAINST 12. A shareholder proposal regarding report on risks of anti-American discrimination from H-1B visa program use AGAINST The ten shareholder proposals (Proposals Three through Twelve) are hereinafter referred to as the \\\"Shareholder\", \" these proposals? The following table presents the items of business scheduled to be voted on at the Annual Meeting and the voting recommendation of the board of directors with respect to each proposal: Proposal | Board Voting Recommendation Management Proposals: 1. The election of twelve directors FOR each nominee 2. The ratification of the appointment of Ernst & Young LLP as our independent registered public accounting firm for the fiscal year ending December 31, 2026 FOR Shareholder Proposals: 3. A shareholder proposal regarding report on AI data usage oversight AGAINST 4. A shareholder pro\"]}"
+        },
+        {
+          "step": 3,
+          "tool": "edgar_search",
+          "args": {
+            "form": "10-K",
+            "date_from": "2025-01-01",
+            "date_to": "2026-04-15",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"10-K\", \"filingDate\": \"2026-01-29\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\"}, {\"form\": \"10-K\", \"filingDate\": \"2025-01-30\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm\"}]"
+        },
+        {
+          "step": 4,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+            "query": "data usage and protection for AI"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\", \"source_date\": \"2026-01-29\", \"results\": [\"ficant risks involved in developing and deploying AI and there can be no assurance that the usage of AI will enhance our products or services or be beneficial to our business, including our efficiency or profitability. For example, our AI-related efforts, particularly those related to generative AI and superintelligence, subject us to risks related to harmful or illegal content, accuracy, misinformation and deepfakes (including related to elections), bias, discrimination, toxicity, consumer protection, products liability, intellectual property infringement or misappropriation, defamation, data\", \"allocated based on headcount. Costs related to the operation of our data centers and technical infrastructure are generally allocated to our segments based on estimated usage, most of which is allocated to the FoA segment. The following table sets forth our segment information of revenue, expenses, and income (loss) from operations (in millions): Year Ended December 31, 2025 | | 2024 | | 2023 Family of Apps: Revenue | $ | 198,759 | | | $ | 162,355 | | | $ | 133,006 Employee compensation (1) (39,943) | | | (31,116) | | | (28,878) Other costs and expenses (2) (56,347) | | | (44,130) | | | (41,25\"]}"
+        },
+        {
+          "step": 5,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+            "query": "data protection for AI products and services"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\", \"source_date\": \"2026-01-29\", \"results\": [\"ta protection requirements, new competition requirements, or requiring local storage and processing of data or similar requirements that could require substantial changes to our products, increase the cost and complexity of delivering our services, cause us to cease the offering of our products and services in certain countries, and/or result in fines or other penalties. We are also subject to new legislation or regulatory decisions that restrict our ability to collect and use information about minors or also limit our advertising services or our ability to offer products and services to minor\", \"r data protection regulations imposing data privacy-related requirements on products and services offered to users in their respective jurisdictions. The California Consumer Privacy Act, as amended by the California Privacy Rights Act, also establishes certain transparency rules and creates certain data privacy rights for users, including limitations on our use of certain sensitive personal information and more ability for users to control the purposes for which their data is shared with third parties. Other states have proposed or enacted similar comprehensive privacy laws that afford users w\"]}"
+        }
+      ]
+    }
+  ]
+}

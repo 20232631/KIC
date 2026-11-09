@@ -1,0 +1,579 @@
+{
+  "ticker": "META",
+  "as_of": "2026-04-16",
+  "model": "gpt-4o",
+  "usage": {
+    "input": 56124,
+    "output": 2116
+  },
+  "results": [
+    {
+      "claim_id": "P04-C02",
+      "proposal": 4,
+      "proposal_topic": "Annual Vote Regarding Executive Pay",
+      "speaker": "company",
+      "proponent": "John Chevedden",
+      "quote": "At our 2025 Annual Meeting of Shareholders, shareholders approved a three-year frequency for our say on pay vote.",
+      "claim_ko": "2025년 주주총회에서 주주들이 경영진 보수에 대한 투표를 3년 주기로 하기로 승인했다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "compensation",
+      "time_ref": "2025 Annual Meeting",
+      "page_no": 9,
+      "quote_found": true,
+      "in_board_summary": true,
+      "merged_ids": [
+        "P04-C06"
+      ],
+      "pages_all": [
+        9,
+        71
+      ],
+      "esg_pillar": "G",
+      "sasb_issue": "(지배구조 공통 이슈)",
+      "materiality": "medium",
+      "proponent_stance": "governance",
+      "flag": "",
+      "priority_score": 4,
+      "priority": "2순위",
+      "priority_reason": "중대성 medium(+2) / 회사 핵심 주장★(+2)",
+      "verdict": "확인 불가",
+      "evidence_quote": "",
+      "source_url": "",
+      "source_date": "",
+      "explanation_ko": "2025년 주주총회에서 경영진 보수 관련 투표 주기를 3년으로 한다는 구체적인 투표 결과를 확인할 수 있는 자료를 찾지 못했습니다.",
+      "check_notes": "",
+      "steps": 4,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "edgar_search",
+          "args": {
+            "form": "8-K",
+            "date_from": "2025-05-00",
+            "date_to": "2025-05-28",
+            "item": "5.07"
+          },
+          "url": null,
+          "result": "[]"
+        },
+        {
+          "step": 2,
+          "tool": "edgar_search",
+          "args": {
+            "form": "DEF 14A",
+            "date_from": "2025-01-01",
+            "date_to": "2025-12-31",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"DEF 14A\", \"filingDate\": \"2025-04-17\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm\"}]"
+        },
+        {
+          "step": 3,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+            "query": "say on pay frequency"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm\", \"source_date\": \"2025-04-17\", \"results\": [\"hareholders, our board of directors determined that we will hold our say on pay vote every three years until the next required say on frequency vote. We are holding our say on pay vote and our say on frequency vote at this Annual Meeting. For more information, see Proposal Four (advisory vote on the compensation of our named executive officers) and Proposal Five (advisory vote on the frequency of \", \"f Proposal Four (non-binding advisory vote on the compensation of our named executive officers) at this Annual Meeting. Based on the results of a separate non-binding advisory shareholder vote on the frequency of future shareholder advisory votes regarding the compensation program for our named executive officers, commonly referred to as a \\\"say on frequency\\\" vote, held at our 2019 Annual Meeting o\"]}"
+        },
+        {
+          "step": 4,
+          "tool": "edgar_search",
+          "args": {
+            "form": "8-K",
+            "date_from": "2025-01-01",
+            "date_to": "2025-12-31",
+            "item": "5.07"
+          },
+          "url": null,
+          "result": "[{\"form\": \"8-K\", \"filingDate\": \"2025-05-30\", \"items\": \"5.07,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm\"}]"
+        }
+      ]
+    },
+    {
+      "claim_id": "P04-S03",
+      "proposal": 4,
+      "proposal_topic": "Annual Vote Regarding Executive Pay",
+      "speaker": "shareholder",
+      "proponent": "John Chevedden",
+      "quote": "Unfortunately the next Meta shareholder vote on executive pay will not be until 2028.",
+      "claim_ko": "안타깝게도 메타의 다음 경영진 보수에 대한 주주 투표는 2028년까지 열리지 않을 것이다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "compensation",
+      "time_ref": "",
+      "page_no": 70,
+      "quote_found": true,
+      "in_board_summary": false,
+      "merged_ids": [],
+      "pages_all": [
+        70
+      ],
+      "esg_pillar": "G",
+      "sasb_issue": "(지배구조 공통 이슈)",
+      "materiality": "medium",
+      "proponent_stance": "governance",
+      "flag": "",
+      "priority_score": 2,
+      "priority": "3순위",
+      "priority_reason": "중대성 medium(+2)",
+      "verdict": "확인됨",
+      "evidence_quote": "The shareholders approved, on a non-binding advisory basis, holding a non-binding advisory vote on the compensation program for the Company's named executive officers every three years.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+      "source_date": "2025-05-30",
+      "explanation_ko": "2025년 주주 총회에서 경영진 보수에 관한 자문 투표를 3년 주기로 실시하기로 결정했다. 따라서 다음 투표는 2028년에 있을 것이다.",
+      "check_notes": "",
+      "steps": 5,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "edgar_search",
+          "args": {
+            "form": "DEF 14A",
+            "date_from": "2025-01-01",
+            "date_to": "2025-12-31",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"DEF 14A\", \"filingDate\": \"2025-04-17\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm\"}]"
+        },
+        {
+          "step": 1,
+          "tool": "edgar_search",
+          "args": {
+            "form": "8-K",
+            "date_from": "2025-05-25",
+            "date_to": "2025-06-10",
+            "item": "5.07"
+          },
+          "url": null,
+          "result": "[{\"form\": \"8-K\", \"filingDate\": \"2025-05-30\", \"items\": \"5.07,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm\"}]"
+        },
+        {
+          "step": 2,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+            "query": "executive pay vote frequency"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm\", \"source_date\": \"2025-04-17\", \"results\": [\" pay vote and our say on frequency vote at this Annual Meeting. For more information, see Proposal Four (advisory vote on the compensation of our named executive officers) and Proposal Five (advisory vote on the frequency of an advisory vote on executive compensation). TAX DEDUCTIBILITY Section 162(m) of the Internal Revenue Code of 1986, as amended, limits the amount that we may deduct from our f\", \"nding advisory shareholder vote on the frequency of future shareholder advisory votes regarding the compensation program for our named executive officers, commonly referred to as a \\\"say on frequency\\\" vote, held at our 2019 Annual Meeting of Shareholders, our board of directors determined that we will hold our say on pay vote every three years until the next required say on frequency vote. We are h\"]}"
+        },
+        {
+          "step": 2,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+            "query": "vote on executive compensation"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm\", \"source_date\": \"2025-05-30\", \"results\": [\"d executive officers once every three years. This policy will remain in effect until the next shareholder vote on the frequency of shareholder advisory votes on the compensation program for the named executive officers, expected to be held at the Company's 2031 annual meeting of shareholders. 6.Shareholder Proposal Regarding Dual Class Capital Structure For | Against | Abstentions | Broker Non-Vot\", \"1,295,109 | 3,542,118,864 | 1,577,405 | 204,772,865 The shareholders approved, on a non-binding advisory basis, holding a non-binding advisory vote on the compensation program for the Company's named executive officers every three years. Based on these results and consistent with the Company's recommendation, the Company's board of directors has determined that the Company will conduct future shar\"]}"
+        },
+        {
+          "step": 3,
+          "tool": "calc",
+          "args": {
+            "expression": "2025 + 3"
+          },
+          "url": null,
+          "result": "{\"result\": 2028}"
+        }
+      ]
+    },
+    {
+      "claim_id": "P04-S05",
+      "proposal": 4,
+      "proposal_topic": "Annual Vote Regarding Executive Pay",
+      "speaker": "shareholder",
+      "proponent": "John Chevedden",
+      "quote": "Mr. Zuckerberg has 60% voting power at Meta and Mr. Zuckerberg votes all his shares to approve executive pay.",
+      "claim_ko": "마크 저커버그는 메타에서 60%의 투표 권한을 가지고 있으며, 그는 자신의 모든 주식을 경영진 보수 승인에 투표한다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "compensation",
+      "time_ref": "",
+      "page_no": 70,
+      "quote_found": true,
+      "in_board_summary": false,
+      "merged_ids": [],
+      "pages_all": [
+        70
+      ],
+      "esg_pillar": "G",
+      "sasb_issue": "(지배구조 공통 이슈)",
+      "materiality": "medium",
+      "proponent_stance": "governance",
+      "flag": "",
+      "priority_score": 2,
+      "priority": "3순위",
+      "priority_reason": "중대성 medium(+2)",
+      "verdict": "부분 확인",
+      "evidence_quote": "early 100% of the outstanding Class B stock, which grants him 61% of the overall voting power while holding only roughly 13% of the economic interest.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+      "source_date": "2026-04-16",
+      "explanation_ko": "마크 저커버그는 전체적인 투표 권한의 61%를 가지고 있으며, 이는 주로 Class B 주식을 통해 이루어진다. 그러나 저커버그가 자신의 모든 주식을 경영진 보수 승인에 사용한다고 명시된 증거는 찾지 못했다.",
+      "check_notes": "",
+      "steps": 5,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "search_proxy",
+          "args": {
+            "query": "voting power"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.73] early 100% of the outstanding Class B stock, which grants him 61% of the overall voting power while holding only roughly 13% of the economic interest.2 The outsized impact of Class B votes means that voting outcomes may not reflect the concerns of the broader shareholder base. Consequently, it would benefit the majority of the Company's shareholders to easily see when a skewed result has occurred.\", \"[proxy p.64] g and investment power over the securities held by CZ Holdings, CZI I, CZ Holdings II, CZ Holdings III, CZ Holdings IV, CZ Holdings V, and CZ Management. Mr. Zuckerberg has sole voting and investment power over the securities held by CZ Biohub, but no pecuniary interest in these securities. (3)Consists of (i) 13,186 shares of Class A common stock held of record by Ms. Li and her spouse, Co-Trustee\", \"[proxy p.91] e designated a representative of the Veaco Group as the Inspector of Elections who will tabulate the votes. 18. Where can I find the voting results of the Annual Meeting? We will announce preliminary voting results at the Annual Meeting and publish final results on a Current Report on Form 8-K that we expect to file with the SEC within four business days after the Annual Meeting.\"]}"
+        },
+        {
+          "step": 2,
+          "tool": "edgar_search",
+          "args": {
+            "form": "8-K",
+            "date_from": "2025-05-30",
+            "date_to": "2025-06-13",
+            "item": "5.07"
+          },
+          "url": null,
+          "result": "[{\"form\": \"8-K\", \"filingDate\": \"2025-05-30\", \"items\": \"5.07,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm\"}]"
+        },
+        {
+          "step": 2,
+          "tool": "edgar_search",
+          "args": {
+            "form": "DEF 14A",
+            "date_from": "2025-01-01",
+            "date_to": "2025-12-31",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"DEF 14A\", \"filingDate\": \"2025-04-17\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm\"}]"
+        },
+        {
+          "step": 3,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+            "query": "Zuckerberg votes executive pay"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm\", \"source_date\": \"2025-05-30\", \"results\": [\"ed executive officers, expected to be held at the Company's 2031 annual meeting of shareholders. 6.Shareholder Proposal Regarding Dual Class Capital Structure For | Against | Abstentions | Broker Non-Votes 1,286,629,335 | 3,701,609,499 | 5,364,187 | 204,772,865 The shareholders did not approve the shareholder proposal regarding dual class capital structure. 7.Shareholder Proposal Regarding Disclos\", \"s every three years. Based on these results and consistent with the Company's recommendation, the Company's board of directors has determined that the Company will conduct future shareholder advisory votes on the compensation program for its named executive officers once every three years. This policy will remain in effect until the next shareholder vote on the frequency of shareholder advisory vo\"]}"
+        },
+        {
+          "step": 4,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+            "query": "Zuckerberg votes executive pay"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm\", \"source_date\": \"2025-04-17\", \"results\": [\"at this Annual Meeting. Based on the results of a separate non-binding advisory shareholder vote on the frequency of future shareholder advisory votes regarding the compensation program for our named executive officers, commonly referred to as a \\\"say on frequency\\\" vote, held at our 2019 Annual Meeting of Shareholders, our board of directors determined that we will hold our say on pay vote every th\", \"nce committee determined to maintain the same overall compensation program design for 2024. Our compensation, nominating & governance committee will continue to consider the outcome of our say on pay votes and shareholder feedback when making compensation decisions for our named executive officers, including the outcome of Proposal Four (non-binding advisory vote on the compensation of our named e\"]}"
+        }
+      ]
+    },
+    {
+      "claim_id": "P04-S06",
+      "proposal": 4,
+      "proposal_topic": "Annual Vote Regarding Executive Pay",
+      "speaker": "shareholder",
+      "proponent": "John Chevedden",
+      "quote": "Meta does not need shareholder approval to adopt an annual vote regarding executive pay.",
+      "claim_ko": "메타는 경영진 보수에 대한 연례 투표를 채택하기 위해 주주 승인이 필요 없다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "compensation",
+      "time_ref": "",
+      "page_no": 70,
+      "quote_found": true,
+      "in_board_summary": false,
+      "merged_ids": [],
+      "pages_all": [
+        70
+      ],
+      "esg_pillar": "G",
+      "sasb_issue": "(지배구조 공통 이슈)",
+      "materiality": "medium",
+      "proponent_stance": "governance",
+      "flag": "",
+      "priority_score": 2,
+      "priority": "3순위",
+      "priority_reason": "중대성 medium(+2)",
+      "verdict": "확인됨",
+      "evidence_quote": "our Class B common stock has ten votes per share and our Class A common stock has one vote per share.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+      "source_date": "2026-04-16",
+      "explanation_ko": "마크 저커버그는 클래스 B 주식의 100%를 소유하고 있어 전체 투표 권한의 61%를 보유하고 있습니다. 이로 인해 메타는 경영진 보수에 대한 연례 투표를 채택하기 위해 주주 승인을 받을 필요가 없습니다. 이는 클래스 B 주식이 주당 10개의 투표권을 가지고 있어, 주주들의 투표 결과에 큰 영향을 미치기 때문입니다.",
+      "check_notes": "",
+      "steps": 4,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "search_proxy",
+          "args": {
+            "query": "voting power"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.73] early 100% of the outstanding Class B stock, which grants him 61% of the overall voting power while holding only roughly 13% of the economic interest.2 The outsized impact of Class B votes means that voting outcomes may not reflect the concerns of the broader shareholder base. Consequently, it would benefit the majority of the Company's shareholders to easily see when a skewed result has occurred.\", \"[proxy p.64] g and investment power over the securities held by CZ Holdings, CZI I, CZ Holdings II, CZ Holdings III, CZ Holdings IV, CZ Holdings V, and CZ Management. Mr. Zuckerberg has sole voting and investment power over the securities held by CZ Biohub, but no pecuniary interest in these securities. (3)Consists of (i) 13,186 shares of Class A common stock held of record by Ms. Li and her spouse, Co-Trustee\", \"[proxy p.91] e designated a representative of the Veaco Group as the Inspector of Elections who will tabulate the votes. 18. Where can I find the voting results of the Annual Meeting? We will announce preliminary voting results at the Annual Meeting and publish final results on a Current Report on Form 8-K that we expect to file with the SEC within four business days after the Annual Meeting.\"]}"
+        },
+        {
+          "step": 2,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+            "query": "voting power"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"eholders to conduct business at the Annual Meeting. A quorum exists if shareholders holding at least a majority of the voting power of the shares of our Class A common stock and Class B common stock (voting together as a single class) entitled to vote at the Annual Meeting are present at the Annual Meeting or represented by proxy. Registered Shareholders. If your shares are registered directly in \", \"early 100% of the outstanding Class B stock, which grants him 61% of the overall voting power while holding only roughly 13% of the economic interest.2 The outsized impact of Class B votes means that voting outcomes may not reflect the concerns of the broader shareholder base. Consequently, it would benefit the majority of the Company's shareholders to easily see when a skewed result has occurred.\"]}"
+        },
+        {
+          "step": 3,
+          "tool": "search_proxy",
+          "args": {
+            "query": "beneficial ownership"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.47] icially owned by Mr. Zuckerberg, and (ii) the aggregate loan amount collateralized by such pledged shares must not exceed 5% of the fair market value of the total number of shares of our common stock beneficially owned by Mr. Zuckerberg at the time of any borrowing. In light of the considerations set forth above, we believe Mr. Zuckerberg's pledging arrangement does not pose a material risk to Met\", \"[proxy p.63] 60 days of April 1, 2026. We did not deem these shares outstanding, however, for the purpose of computing the percentage ownership of any other person. Unless otherwise indicated, the address of each beneficial owner listed in the following table is c/o Meta Platforms, Inc., 1 Meta Way, Menlo Park, California 94025.\", \"[proxy p.58] 10% of our Class A common stock failed to file a report on a timely basis during 2025, except for: (i) one late Form 3 filing for Patrick Collison dated May 12, 2025, to report his initial beneficial ownership due to a delay in the SEC issuing Mr. Collison's filing credentials and (ii) one late Form 4 filing for John Elkann dated May 20, 2025, to report the vesting of previously granted RSU awards\"]}"
+        },
+        {
+          "step": 4,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+            "query": "beneficial ownership"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"ample, we disclose that our Class B common stock has ten votes per share and our Class A common stock has one vote per share. We also provide disclosure about the security ownership of certain of our beneficial owners and management, including the number of shares of our outstanding Class B common stock and the number and percentage of shares of outstanding Class B common stock beneficially owned \", \" longer has, or is deemed to have, beneficial ownership over securities beneficially owned by such subsidiaries and/or business divisions. As of the date of this proxy statement filing, no beneficial ownership reports as to our common stock had been filed with the SEC by subsidiaries or business divisions of The Vanguard Group. (22)Based on information reported by BlackRock, Inc. on Schedule 13G/A\"]}"
+        }
+      ]
+    },
+    {
+      "claim_id": "P04-S09",
+      "proposal": 4,
+      "proposal_topic": "Annual Vote Regarding Executive Pay",
+      "speaker": "shareholder",
+      "proponent": "John Chevedden",
+      "quote": "This is especially important at a company that has a market cap of $1.8 Trillion.",
+      "claim_ko": "시가 총액이 1.8조 달러인 회사에서 이는 특히 중요하다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "compensation",
+      "time_ref": "",
+      "page_no": 70,
+      "quote_found": true,
+      "in_board_summary": false,
+      "merged_ids": [],
+      "pages_all": [
+        70
+      ],
+      "esg_pillar": "G",
+      "sasb_issue": "(지배구조 공통 이슈)",
+      "materiality": "medium",
+      "proponent_stance": "governance",
+      "flag": "",
+      "priority_score": 2,
+      "priority": "3순위",
+      "priority_reason": "중대성 medium(+2)",
+      "verdict": "확인 불가",
+      "evidence_quote": "",
+      "source_url": "",
+      "source_date": "",
+      "explanation_ko": "2026년 10-K와 프록시 성명서에서 메타의 시가총액에 대한 정보를 찾을 수 없습니다.",
+      "check_notes": "",
+      "steps": 3,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "search_proxy",
+          "args": {
+            "query": "market cap"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.72] e that if we focus on this mission and build useful and engaging products and services, we will create the most value for our shareholders over the long term. Our board of directors believes that our capital structure allows our company to focus on our mission and long-term success. Various studies have shown that multi-class structures do not hinder company performance and can support strong resu\", \"[proxy p.71] ence the company performed.”2 In recent years, Meta has experienced a series of material governance breakdowns, including: •A historic stock decline in October 2025 that erased $214 billion in market capitalization following investor alarm over uncontrolled AI spending.3 •More than $2 billion in regulatory fines in 2022, including major EU penalties for privacy violations, antitrust abuses, and br\", \"[proxy p.41] ht of the scale of our business, the compensation, nominating & governance committee gives greater weight to the compensation levels of companies in our Peer Group that have higher revenue and market capitalization compared to other companies in the Peer Group when making decisions about the compensation of our executive officers. The compensation, nominating & governance committee also relies on \"]}"
+        },
+        {
+          "step": 2,
+          "tool": "edgar_search",
+          "args": {
+            "form": "10-K",
+            "date_from": "2026-01-01",
+            "date_to": "2026-04-15",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"10-K\", \"filingDate\": \"2026-01-29\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\"}]"
+        },
+        {
+          "step": 3,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+            "query": "market cap"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\", \"source_date\": \"2026-01-29\", \"results\": [\" to co-develop a data center campus in Louisiana (the Venture). This Venture provides strategic optionality and flexibility, enabling us to effectively meet future infrastructure capacity needs as AI markets and technologies develop. At Venture formation, we contributed $4.30 billion of held-for-sale assets, net of liabilities, and we received a one-time distribution of $2.55 billion. We hold a 20\", \" on preservation of capital and supporting our liquidity requirements. Changes in U.S. interest rates affect the interest earned on our cash, cash equivalents, and marketable debt securities, and the market value of those securities. A hypothetical 100 basis point increase in market interest rates would have resulted in a decrease of $711 million and $680 million in the market value of our availab\"]}"
+        }
+      ]
+    },
+    {
+      "claim_id": "P04-S10",
+      "proposal": 4,
+      "proposal_topic": "Annual Vote Regarding Executive Pay",
+      "speaker": "shareholder",
+      "proponent": "John Chevedden",
+      "quote": "The proponent of this proposal timely submitted a 2025 rule 14a-8 proposal to Meta but it did not appear on the 2025 Meta annual meeting ballot.",
+      "claim_ko": "이 제안의 제안자는 2025년 규칙 14a-8 제안을 메타에 적시에 제출했지만, 이는 2025년 메타 주총 투표지에 나타나지 않았다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "voting_governance",
+      "time_ref": "2025 Annual Meeting",
+      "page_no": 70,
+      "quote_found": true,
+      "in_board_summary": false,
+      "merged_ids": [],
+      "pages_all": [
+        70
+      ],
+      "esg_pillar": "G",
+      "sasb_issue": "(지배구조 공통 이슈)",
+      "materiality": "medium",
+      "proponent_stance": "governance",
+      "flag": "",
+      "priority_score": 2,
+      "priority": "3순위",
+      "priority_reason": "중대성 medium(+2)",
+      "verdict": "확인됨",
+      "evidence_quote": "report on Data Collection and Advertising Practices For | Against | Abstentions | Broker Non-Votes 540,736,457 | 4,439,322,426 | 13,544,138 | 204,772,865 The shareholders did not approve the shareholder proposal regarding report on data collection and advertising practices.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+      "source_date": "2025-05-30",
+      "explanation_ko": "2025년 주주총회에서 경영진 보수에 관한 제안은 투표용지에 포함되지 않았음을 확인할 수 있습니다. 대신 데이터 수집 및 광고 관행에 관한 주주 제안서가 포함되었습니다.",
+      "check_notes": "",
+      "steps": 4,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "edgar_search",
+          "args": {
+            "form": "DEF 14A",
+            "date_from": "2025-01-01",
+            "date_to": "2025-12-31",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"DEF 14A\", \"filingDate\": \"2025-04-17\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm\"}]"
+        },
+        {
+          "step": 2,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+            "query": "rule 14a-8 proposal"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000040/meta-20250417.htm\", \"source_date\": \"2025-04-17\", \"results\": [\"ur proxy statement and form of proxy relating to our annual meeting of shareholders to be held in 2026 pursuant to Rule 14a-8 under the Securities Exchange Act of 1934, as amended (Exchange Act), the proposal must be received by us via email at CorporateSecretary@meta.com or via physical mail sent to our principal executive offices no later than December 18, 2025. Submissions should be made to Met\", \" that we expect to file with the SEC within four business days after the Annual Meeting. 19. How can I make proposals or make a nomination for director for next year's annual meeting? You may present proposals for action at a future meeting or submit nominations for election of directors only if you comply with the requirements of the rules established by the SEC and our amended and restated bylaw\"]}"
+        },
+        {
+          "step": 3,
+          "tool": "edgar_search",
+          "args": {
+            "form": "8-K",
+            "date_from": "2025-05-01",
+            "date_to": "2025-06-15",
+            "item": "5.07"
+          },
+          "url": null,
+          "result": "[{\"form\": \"8-K\", \"filingDate\": \"2025-05-30\", \"items\": \"5.07,9.01\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm\"}]"
+        },
+        {
+          "step": 4,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+            "query": "shareholder proposal"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000090/meta-20250528.htm\", \"source_date\": \"2025-05-30\", \"results\": [\"ort on Data Collection and Advertising Practices For | Against | Abstentions | Broker Non-Votes 540,736,457 | 4,439,322,426 | 13,544,138 | 204,772,865 The shareholders did not approve the shareholder proposal regarding report on data collection and advertising practices. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit Number | | Exhibit Title or Description 104 | | Cover Page Int\", \"stentions | Broker Non-Votes 161,819,547 | 4,813,205,098 | 18,578,376 | 204,772,865 The shareholders did not approve the shareholder proposal regarding GHG emissions reduction actions. 13.Shareholder Proposal Regarding Bitcoin Treasury Assessment For | Against | Abstentions | Broker Non-Votes 3,916,871 | 4,980,828,562 | 8,857,588 | 204,772,865 The shareholders did not approve the shareholder propo\"]}"
+        }
+      ]
+    },
+    {
+      "claim_id": "P04-C04",
+      "proposal": 4,
+      "proposal_topic": "Annual Vote Regarding Executive Pay",
+      "speaker": "company",
+      "proponent": "John Chevedden",
+      "quote": "A substantial portion of compensation for our executives is in the form of long-term equity awards with performance periods of greater than three years.",
+      "claim_ko": "경영진 보상의 상당 부분은 3년을 초과하는 성과 기간을 가진 장기 주식 보상의 형태이다.",
+      "kind": "fact",
+      "checkable": true,
+      "topic": "compensation",
+      "time_ref": "",
+      "page_no": 70,
+      "quote_found": true,
+      "in_board_summary": false,
+      "merged_ids": [],
+      "pages_all": [
+        70
+      ],
+      "esg_pillar": "G",
+      "sasb_issue": "(지배구조 공통 이슈)",
+      "materiality": "medium",
+      "proponent_stance": "governance",
+      "flag": "",
+      "priority_score": 2,
+      "priority": "3순위",
+      "priority_reason": "중대성 medium(+2)",
+      "verdict": "확인 불가",
+      "evidence_quote": "",
+      "source_url": "",
+      "source_date": "",
+      "explanation_ko": "제공된 자료에서 경영진 보상이 3년을 초과하는 성과 기간을 가진 장기 주식 보상이라는 구체적인 정보를 찾을 수 없었습니다. proxy와 10-K 문서를 검색했으나 관련된 명확한 정보는 발견되지 않았습니다.",
+      "check_notes": "",
+      "steps": 4,
+      "trace": [
+        {
+          "step": 1,
+          "tool": "search_proxy",
+          "args": {
+            "query": "long-term equity awards performance periods"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm\", \"source_date\": \"2026-04-16\", \"results\": [\"[proxy p.44] isting equity awards in order to maximize the long-term retentive power of all additional awards; and •the size of each executive officer's target total cash compensation (base salary plus cash bonus awards at target), compared to cash compensation paid to executives with similar responsibilities at the companies in our Peer Group. Based on the foregoing factors, in March 2025, our compensation, n\", \"[proxy p.55] ormation Presented in the Pay Versus Performance Table Our 2025 executive compensation program continued to be heavily weighted towards equity compensation with service-based vesting. We believe that equity compensation offers the best vehicle to focus our executive officers on our mission and the successful pursuit of our company priorities, and to align their interests with the long-term interes\", \"[proxy p.61] ach new non-employee director who joins our board of directors is eligible to receive a one-time grant of RSUs at the time of their appointment with an initial equity value equal to $1 million. These awards will vest over approximately a four-year period in 16 equal quarterly installments. ANNUAL LIMIT ON DIRECTOR COMPENSATION Our Director Compensation Policy limits aggregate compensation (includi\"]}"
+        },
+        {
+          "step": 2,
+          "tool": "edgar_search",
+          "args": {
+            "form": "10-K",
+            "date_from": "2025-01-01",
+            "date_to": "2026-04-15",
+            "item": ""
+          },
+          "url": null,
+          "result": "[{\"form\": \"10-K\", \"filingDate\": \"2026-01-29\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\"}, {\"form\": \"10-K\", \"filingDate\": \"2025-01-30\", \"items\": \"\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm\"}]"
+        },
+        {
+          "step": 3,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+            "query": "executive compensation long-term equity awards performance periods"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm\", \"source_date\": \"2026-01-29\", \"results\": [\"eds. Share-based Compensation Plan Our board of directors and stockholders approved our 2025 Equity Incentive Plan (2025 Plan), effective as of May 28, 2025, which serves as the successor to our 2012 Equity Incentive Plan (2012 Plan) and provides for the issuance of RSUs, incentive and nonqualified stock options, restricted stock awards, stock appreciation rights, performance shares, and stock bon\", \" results between periods where certain items may vary independent of business performance, and allow for greater transparency with respect to key metrics used by management in operating our business. Executive Overview of Full Year 2025 Results Our mission is to build the future of human connection and the technology that makes it possible. Our financial results and key Family metrics for 2025 are\"]}"
+        },
+        {
+          "step": 4,
+          "tool": "read_filing",
+          "args": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+            "query": "executive compensation long-term equity awards performance periods"
+          },
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+          "result": "{\"source_url\": \"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm\", \"source_date\": \"2025-01-30\", \"results\": [\"2 Equity Incentive Plan (Amended 2012 Plan), which was most recently amended in May 2024. Our Amended 2012 Plan provides for the issuance of incentive and nonqualified stock options, restricted stock awards, stock appreciation rights, RSUs, performance shares, and stock bonuses to qualified employees, directors, and consultants. Shares that are withheld in connection with the net settlement of RSU\", \" results between periods where certain items may vary independent of business performance, and allow for greater transparency with respect to key metrics used by management in operating our business. Executive Overview of Full Year 2024 Results Our mission is to build the future of human connection and the technology that makes it possible. Our financial results and key Family metrics for 2024 are\"]}"
+        }
+      ]
+    }
+  ]
+}
